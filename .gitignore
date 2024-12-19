@@ -1,0 +1,45 @@
+# Entorno virtual
+inventario-env/
+
+# Base de datos
+db.sqlite3
+
+# Archivos generados por el sistema operativo
+*.DS_Store
+*.log
+*.pot
+*.pyc
+*.pyo
+*.swp
+*.swo
+Thumbs.db
+
+# Archivos de compilación y caché de Python
+__pycache__/
+*.py[cod]
+
+# Migraciones de Django
+*/migrations/*
+
+# Configuración de entornos locales y secretos
+.env
+*.env
+secrets.json
+
+# Archivos estáticos generados
+staticfiles/
+media/
+
+# Configuración de editores e IDEs
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Archivos de compilación y distribución
+*.egg-info/
+dist/
+build/
+
+# Herramientas y logs de instalación de paquetes
+pip-log.txt
+pip-delete-this-directory.txt
