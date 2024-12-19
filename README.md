@@ -1,6 +1,6 @@
-# Gestión de Productos
+# Gestión de inventarios
 
-Este proyecto es una aplicación web para gestionar productos. Permite realizar operaciones CRUD (Crear, Leer, Actualizar y Eliminar) con una interfaz gráfica moderna y responsiva. Está construido con **Django**, aprovechando sus capacidades robustas para desarrollo web.
+Este proyecto es una aplicación web para gestionar inventarios. Permite realizar operaciones CRUD (Crear, Leer, Actualizar y Eliminar) con una interfaz gráfica moderna y responsiva. Está construido con **Django**, aprovechando sus capacidades robustas para desarrollo web.
 
 ---
 
@@ -15,8 +15,8 @@ Este proyecto es una aplicación web para gestionar productos. Permite realizar 
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone https://github.com/usuario/gestion-productos.git
-   cd gestion-productos
+   git clone https://github.com/usuario/gestion-inventarios.git
+   cd gestion-inventarios
    ```
 
 2. **Crear y activar un entorno virtual:**
@@ -51,7 +51,7 @@ Este proyecto es una aplicación web para gestionar productos. Permite realizar 
 
 ```
 .
-├── gestion_productos
+├── gestion_inventarios
 │   ├── migrations/       # Migraciones de base de datos
 │   ├── static/           # Archivos estáticos (CSS, JS, imágenes)
 │   ├── templates/        # Plantillas HTML
@@ -71,15 +71,15 @@ Este proyecto es una aplicación web para gestionar productos. Permite realizar 
 
 ### **1. Operaciones CRUD**
 - **Crear Producto:**
-  - Formulario para agregar nuevos productos con validaciones personalizadas.
+  - Formulario para agregar nuevos inventarios con validaciones personalizadas.
   - Alertas visuales de éxito y error.
 - **Editar Producto:**
-  - Actualización de productos existentes con validaciones y diseño intuitivo.
+  - Actualización de inventarios existentes con validaciones y diseño intuitivo.
 - **Eliminar Producto:**
   - Confirmación antes de eliminar un producto.
   - Mensajes de feedback al usuario.
-- **Listar Productos:**
-  - Tabla responsiva que muestra los productos con opciones para editar o eliminar.
+- **Listar inventarios:**
+  - Tabla responsiva que muestra los inventarios con opciones para editar o eliminar.
 
 ### **2. Validaciones en Formularios**
 - El precio debe ser mayor a 0.
@@ -108,8 +108,8 @@ Este proyecto fue una excelente oportunidad para aplicar conocimientos en **Djan
 - Se priorizó la experiencia del usuario (UX) para garantizar una aplicación funcional y atractiva.
 
 Este proyecto puede expandirse fácilmente, integrando nuevas funcionalidades como:
-- Soporte para imágenes de productos.
-- Paginación en la lista de productos.
+- Soporte para imágenes de inventarios.
+- Paginación en la lista de inventarios.
 - API REST para integrar con aplicaciones móviles.
 
 ¡Gracias por revisar este proyecto! 🚀
